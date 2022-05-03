@@ -1,0 +1,906 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* start navbar  */
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 100px;
+    z-index: 99999999999;
+}
+.navbar IMG{
+    height: 10vh;
+}
+.navbar .balck1{
+    display: none;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 10px;
+    position: relative;
+}
+#links{
+    display: flex;
+}
+.navbar ul a{
+    text-decoration: none;
+    position: relative;
+    color: black;
+    font-weight: bold;
+    transition: all 2s;
+}
+.navbar ul a:hover{
+    color: #84abec;
+}
+.stkly{
+    background-color: black;
+}
+.stkly ul a{
+    color: #fff;
+    transition: all 2s;
+}
+.stkly .balck1{
+    display: block;
+}
+.stkly .white1{
+    display: none;
+}
+.stkly ul a:hover{
+    color: #cf84fb;
+}
+.icone-do{
+    display: none;
+}
+.icone-do a{
+    text-decoration: none;
+}
+/* end navbar  */
+
+/* start home  */
+.se-two{
+    flex-wrap: wrap;
+}
+.firat-car img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+.text1{
+    text-align: center;
+}
+.text1 h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+.text1 p{
+    font-size: 30px;
+    width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.5;
+}
+/* end home  */
+
+/* start section two  */
+.se-father2{
+    display: flex;
+    margin-top: 200px;
+}
+.Timg img{
+    height: 70vh;
+    overflow: hidden;
+    margin-left: -250px;
+}
+.lo-se img{
+    height: 10vh;
+    margin-top: -150px;
+    margin-left: 250px;
+    opacity: 0.3;
+}
+.se-text{
+    display: block;
+    margin-right: auto;
+    width: 600px;
+}
+.se-text h1{
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 80px;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+}
+.se-text p{
+    width: 400px;
+    margin-left: auto;
+    padding: 20px;
+    margin-top: -60px;
+}
+.se-text button{
+    background-image: linear-gradient(to right, #84abec, #cf84fb);
+    padding: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.se-text button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end section two  */
+/* :start section three */
+.se-father3{
+    display: flex;
+    margin-top: 200px;
+}
+.Timg3 img{
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+}
+.se-text3{
+    width: 500px;
+    padding: 20px;
+    display: block;
+    margin-right: auto;
+    height: 50vh;
+}
+.se-text3 button {
+    background-color: black;
+    padding: 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 158px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.se-text3 button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end section three  */
+.father-for{
+    display: block;
+    margin-top: 200px;
+}
+.for-img img{
+    height: 65vh;
+    display: block;
+    margin-left: auto;
+}
+.for-text{
+    padding: 20px;
+    position: relative;
+    width: 500px;
+    margin-top: -400px;
+}
+.for-text img{
+    height: 20vh;
+}
+.for-text h1{
+    position: absolute;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(77, 74, 74);
+    margin-top: -70px;
+    margin-left: 50px;
+}
+.for-text p{
+    padding: 20px;
+    margin-left: auto;
+    opacity: 0.5;
+}
+.for-text button{
+    background-image: linear-gradient(to right, #84abec, #906de2);
+    padding: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 180px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.for-text button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* end section fore  */
+.se-five{
+    margin-top: 100px;
+}
+.fi-img img{
+    height: 65vh;
+    display: block;
+    margin-right: auto;
+}
+.five-text{
+    width: 500px;
+    margin-left: auto;
+    margin-top: -350px;
+}
+.five-text h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.five-text p{
+    font-size: 15px;
+    opacity: 0.5;
+}
+.five-text button {
+    background-color: black;
+    padding: 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 158px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.five-text button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end section five  */
+.se-six{
+    background-image: linear-gradient(to right, #84abec, #906de2);
+    margin-top: 200px;
+    overflow-x: hidden;
+    height: 60vh;
+}
+.sex-img img{
+    height: 60vh;
+    display: block;
+    margin-left: auto;
+    margin-right: -100px;
+}
+.six-imgao{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-top: -250px;
+    position: relative;
+    text-align: center;
+}
+.text-sec{
+    width: 600px;
+    margin-top: 100px;
+    position: absolute;
+    padding: 20px;
+    font-size: 20px;
+}
+.six-imgao button {
+    background-color: black;
+    padding: 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 158px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.six-imgao button a{
+    text-decoration: none;
+    color: #fff;
+}
+.text-sec p{
+    color: #fff;
+    font-weight: bold;
+}
+/* end section sex  */
+.sevin-father{
+    display: flex;
+}
+.sevine-img img{
+    height: 90vh;
+    display: block;
+    margin-right: auto;
+}
+.sevin-text{
+    margin-left: auto;
+    height: 55vh;
+    margin: 10px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-right: 80px;
+}
+.sevin-text img{
+    height: 25vh;
+}
+.sevin-text h1{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.sevin-text button{
+    background-image: linear-gradient(to right, #84abec, #906de2);
+    padding: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 180px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sevin-text button a{
+    text-decoration: none;
+    color: #fff;
+}
+/* end section siven */
+.se-end{
+    height: 50vh;
+    background-color: #2b2933;
+    color: #fff;
+}
+.end-logo img{
+    height: 20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.end-text H1{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.end-text H1 a{
+    text-decoration: none;
+    color: #906de2;
+    transition: all 1s;
+}
+.end-text H1 a:hover{
+    color: #84abec;
+}
+.end-icone{
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.end-icone a{
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.end-icone a:hover{
+    background-color: #fff;
+    color: blue;
+}
+/* end section end  */
+
+ /* :start media  */
+ @media (max-width: 1199px){
+    .text1 h1{
+        font-size: 70px;
+    }
+    .text1 p{
+        font-size: 25px;
+        width: 700px;
+    }
+    .se-father2 img{
+        height: 60vh;
+    }
+    
+    .se-text img{
+        height: 20vh;
+    }
+    .se-text h1{
+        font-size: 30px;
+        margin-top: -75px;
+        margin-left: 50px;
+    }
+    .se-text p{
+        padding: 20px;
+        margin-top: -20px;
+    }
+    .lo-se img{
+        margin-top: -120px;
+        margin-left: 200px;
+    }
+    .Timg3 img {
+        height: 40vh;
+    }
+    .for-img img {
+        height: 53vh;
+        margin-right: -101px;
+    }
+    .father-for {
+        overflow-x: hidden;
+    }
+    .for-text {
+        padding: 33px;
+    }
+    .for-text img {
+        margin-top: 29px;
+    }
+    .fi-img img {
+        margin-left: -212px;
+    }
+    .text-sec p{
+        font-size: 18px;
+        width: 500px;
+    }
+    .sex-img img {
+        margin-right: -168px;
+    }
+    .six-imgao h1 {
+        font-size: 28px;
+    }
+    .sevine-img img{
+        height: 70vh;
+    }
+}
+@media (max-width: 1077px){
+    body{
+        overflow-x: hidden;
+    }
+    .firat-car img {
+        height: 44vh;
+    }
+    .se-text h1 {
+        font-size: 23px;
+        margin-top: -57px;
+        margin-left: 6px;
+    }
+    .se-text img {
+        margin-left: -23px;
+    }
+    .se-text p {
+        padding: 1px;
+        margin-top: -4px;
+        font-size: 14px;
+        width: 289px;
+    }
+    .se-text img {
+        height: 15vh;
+    }
+    .Timg img {
+        height: 55vh;
+    }
+    .se-text3 h1 {
+        font-size: 26px;
+    }
+    .se-text3  p {
+        font-size: 16px;
+    }
+    .for-img img {
+        height: 51vh;
+        margin-right: -111px;
+    }
+}
+@media (max-width: 1056px){
+    .text-sec p {
+        font-size: 18px;
+        width: 400px;
+        margin-top: -28px;
+    }
+}
+@media (max-width: 980px){
+    .for-text {
+        width: 400px;
+    }
+    .five-text {
+        width: 381px;
+        margin-left: auto;
+        margin-top: -350px;
+    }
+    
+    .five-text p {
+        font-size: 13px;
+        opacity: 0.5;
+    } 
+    .sex-img img {
+        margin-right: -172px;
+        height: 53vh;
+    }
+    .six-imgao {
+        margin-top: -203px;
+        margin-right: -34px;
+    } 
+    .sevine-img img {
+        height: 62vh;
+    }
+    .sevin-text {
+        margin-top: 11px;
+    }
+    
+}
+@media (max-width: 980px){
+    .text-sec p {
+        font-size: 18px;
+        width: 350px;
+        margin-top: -84px;
+    }
+    .sex-img img {
+        margin-right: -172px;
+        height: 47vh;
+        position: relative;
+        margin-top: 67px;
+    }
+    
+    .sex-img img {
+        margin-top: 67px ;
+    }
+    .text-sec p {
+        margin-top: -148px !important;
+    }
+    .six-imgao h1 {
+        font-size: 24px;
+    }
+    .six-imgao {
+        margin-top: -185px;
+        margin-right: -67px;
+    }
+    .sevin-text h1 {
+        position: absolute;
+        margin-top: -54px;
+        margin-left: 31px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .sevin-text img {
+        height: 16vh;
+    }
+}
+@media (max-width:887px){
+    .se-father2 {
+        display: block;
+    }
+    .navbar ul {
+        position: inherit;
+        margin-top: 365px;
+        width: 101%;
+        text-align: center;
+        padding: 10px;
+        margin-left: -101px;
+        margin-right: -11px;
+    }
+    .navbar #links{
+        background-color: #fff;
+        display: none;
+    }
+    .stkly #links{
+        background-color: black;
+        display: none;
+    }
+    .icone-do{
+        display: flex;
+    }
+    .navbar .icone-do a{
+        font-size: 30px;
+        color: black;
+    }
+    .stkly .icone-do a{
+        font-size: 30px;
+        color: white;
+    }
+    .icone-do #up{
+        display: none;
+    }
+    .se-text {
+        display: block;
+        width: 309px;
+        margin-left: auto;
+        padding: 20px;
+    }
+    .lo-se img {
+        margin-top: -829px;
+        margin-left: 200px;
+    }
+    .Timg img {
+        height: 67vh;
+    }
+    .se-text p {
+        padding: 3px;
+        margin-top: -4px;
+        font-size: 14px;
+        width: 405px;
+    }
+    .se-text h1 {
+        font-size: 40px;
+        margin-top: -76px;
+        margin-left: 6px;
+    }
+    .se-text p {
+        padding: 3px;
+        margin-top: -4px;
+        font-size: 14px;
+        width: 405px;
+    }
+    .firat-car img {
+        height: 34vh;
+    }
+    .text1 h1 {
+        font-size: 53px;
+    }
+    .text1 p {
+        font-size: 20px;
+        width: 501px;
+    }
+    .se-father3 {
+        display: block;
+    }
+    .se-father2 {
+        display: block;
+        margin-bottom: 77px;
+    }
+    .Timg3 img {
+        height: 40vh;
+        margin-top: -587px;
+    }
+    .for-img img {
+        margin-top: 35px;
+    }
+    .for-text{
+        width: 500px;
+        margin-top: -31px;
+    }
+    .five-text {
+        width: 381px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+    .fi-img img {
+        height: 63vh;
+        display: block;
+        margin-left: -110px;
+    }
+    .sevine-img img {
+        height: 53vh;
+    }
+}
+@media (max-width:750px){
+    .Timg img {
+        height: 61vh;
+    }
+    .lo-se img {
+        margin-top: -760px;
+    }
+    .se-text{
+        margin-right: 327px;
+    }
+    .se-text3 {
+        width: 400px;
+    }
+    .father-for {
+        display: block;
+        margin-top: 254px;
+    }
+    .six-imgao {
+        margin-top: -184px;
+        margin-right: -69px;
+    }
+    .six-imgao h1 {
+        font-size: 25px;
+    }
+    .se-six {   
+        height: 71vh;
+    }
+    .sevin-father {
+        display: block;
+    }
+    .sevine-img img {
+        height: 57vh;
+    }
+    
+}
+@media (max-width:650px){
+    .firat-car img {
+        height: 29vh;
+    }
+    .text1 h1 {
+        font-size: 44px;
+    }
+    .text1 p {
+        font-size: 17px;
+        width: 401px;
+    }
+    .Timg img {
+        height: 57vh;
+    }
+    .lo-se img {
+        margin-top: -896px;
+        margin-left: 112px;
+    }
+    .se-text {
+        margin-right: 225px;
+        flex-wrap: wrap;
+    }
+    .fi-img img {
+        height: 57vh;
+        display: block;
+        margin-left: -195px;
+    }
+}
+@media (max-width:600px){
+    .Timg img {
+        height: 52vh;
+    }
+    .firat-car img {
+        height: 26vh;
+    }
+}
+@media (max-width: 575px){
+    .text1 h1 {
+        width: 407px;
+        font-size: 28px;
+    }
+    .firat-car img {
+        height: 17vh;
+    }
+    .text1 {
+        margin-left: -34px;
+    }
+    .text1 p {
+        font-size: 14px;
+        width: 307px;
+    }
+    .Timg img {
+        height: 42vh;
+        margin-top: -121px;
+    }
+    .lo-se img {
+        margin-top: -908px;
+        margin-left: 44px;
+        height: 6vh;
+    }
+    .se-text h1 {
+        font-size: 29px;
+        margin-top: -61px;
+        margin-left: 6px;
+        width: 328px;
+    }
+    .se-text p {
+        width: 326px;
+    }
+    .stkly .balck1 {
+        display: block;
+        margin-left: -89px;
+    }
+    .navbar IMG {
+        height: 10vh;
+        margin-left: -75px;
+    }
+    .fa-solid, .fas {
+        margin-right: -34px;
+    }
+    .Timg3 img {
+        height: 28vh;
+        margin-top: -587px;
+    }
+    .se-text3 h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .se-text3 p {
+        font-size: 13px;
+        width: 300px;
+        opacity: 0.5;
+    }
+    .for-img img {
+        height: 31vh;
+        margin-right: -49px;
+    }
+    .for-text h1 {
+        font-size: 16px;
+        margin-left: 28px;
+        margin-top: -49px;
+    }
+    .for-text img {
+        height: 15vh;
+    }
+    .for-text p {
+        padding: 20px;
+        opacity: 0.5;
+        font-size: 11px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .for-text button {
+        background-image: linear-gradient(to right, #84abec, #906de2);
+        padding: 8px;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        width: 151px;
+        display: block;
+        margin-right: auto;
+        margin-left: 78px;
+    }
+    .for-text button a {
+        font-size: 14px;
+    }
+    .fi-img img {
+        height: 45vh;
+        display: block;
+        margin-left: -195px;
+    }
+    .five-text {
+        width: 315px;
+        margin-left: auto;
+        margin-top: 0;
+    }
+    .five-text h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .five-text p {
+        font-size: 11px;
+        opacity: 0.5;
+    }
+    .se-five {
+        margin-top: 0px; 
+    }
+    .sex-img img {
+        margin-top: 4px;
+    }
+    .text-sec p {
+        margin-top: 149px !important;
+        flex-wrap: wrap;
+        font-size: 15px;
+    width: 300px;
+    }
+    .se-six {
+        height: 92vh;
+    }
+    .six-imgao h1 {
+        font-size: 13px;
+    }
+    .six-imgao button {
+        background-color: black;
+        padding: 5px;
+        font-weight: bold;
+        border: none;
+        border-radius: 30px;
+        width: 127px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .six-imgao button a {
+        font-size: 13px;
+    }
+    .sevine-img img {
+        height: 41vh;
+    }
+    .se-end {
+        height: 55vh;
+    }
+    .end-icone{
+        margin-left: -36px;
+        margin-right: 0px;
+    }
+    .end-text H1 {
+        font-size: 22px;
+    }
+}
+/* end media  */
